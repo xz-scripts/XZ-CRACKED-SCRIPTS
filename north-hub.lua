@@ -7,7 +7,6 @@ if _G.NorthRunning then return end
 _G.NorthRunning = true
 
 repeat task.wait() until game:IsLoaded()
-local script_key = "trial"
 local Players = game:GetService("Players")
 local UserInputService = game:GetService("UserInputService")
 local TweenService = game:GetService("TweenService")
